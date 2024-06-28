@@ -1,0 +1,382 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 84px;
+    background-color: #ffffff;
+  }
+  
+  header .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    font-family: 'Cinzel', serif;
+    font-size: 25px; /* Dimensione originale del logo */
+  }
+  
+  header .logo h1 {
+    margin: 0;
+    position: relative;
+    font-weight: 400;
+  }
+  
+  header .logo h1 .ventus {
+    position: relative;
+    background-color: #00C1D4;
+    height: calc(36px * 0.6); /* Poco più della metà dell'altezza del logo */
+    display: inline-block;
+    line-height: 5px; /* Per mantenere la scritta centrata verticalmente */
+    color: rgb(0, 0, 0); /* Colore del testo */
+    font-weight: 5;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin-left: 50px;
+  }
+  
+  nav ul li a, 
+  nav ul li img {
+    font-size: 14px;
+    font-weight: 700;
+    color: #262626;
+    text-decoration: none;
+  }
+
+ .spacing_w {
+    word-spacing: 10px;
+ }
+  
+  .contact-button {
+    background-color: #00C1D4;
+    padding: 12px;
+    border-radius: 4px;
+    color: #fff !important;
+  }
+  
+  .search-container {
+    position: relative;
+    width: 47px;
+    height: 47px;
+  }
+  
+  .search-background {
+    background-color: #00C1D4;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .search-icon {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    z-index: 1;
+    top: 11px;
+    left: 11px;
+  }
+  
+  .hero {
+    width: calc(100% - 168px); 
+    margin: 0 auto;
+    border-radius: 15px; 
+    overflow: hidden; 
+  }
+  
+  .hero-image-wrapper {
+    background-image: url('./assets/mask-group.svg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 559px;
+    position: relative;
+  }
+  
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 141px;
+    transform: translateY(-50%);
+    max-width: 627px;
+  }
+  
+  .magazine-name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.76px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+  }
+  
+  .headline {
+    font-family: 'Poppins', sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 30px 0;
+  }
+  
+  .highlighted {
+    font-family: 'Poppins', sans-serif;
+    color: #00C1D4 !important;
+  }
+  
+  .subheadline {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+  }
+  
+  .topics {
+    padding: 40px 0;
+  }
+  
+  .topics h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #262626;
+    margin-bottom: 40px;
+    padding-right: 84px;
+  }
+  
+  .topics-inner {
+    width: calc(100% - 168px);
+    margin: 0 auto;
+  }
+  
+  .topic-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 16px;
+  }
+  
+  .topic-card {
+    background-color: #fff;
+    padding: 20px;
+    width: calc((100% - 5 * 16px) / 6);
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+  }
+  
+  .topic-card img {
+    width: 88px;
+    height: 88px;
+    margin-bottom: 10px;
+  }
+  
+  .topic-card h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #262626;
+    margin: 10px 0;
+  }
+  
+  .topic-card button {
+    background-color: #00C1D4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .section-divider {
+    width: calc(100% - 168px); /* Larghezza uguale a quella dell'header */
+    margin: 0 auto;
+    border-top: 2px solid #BCBCBC; /* Linea di separazione grigio scuro */
+    margin-top: 40px; /* Spazio superiore */
+    margin-bottom: 40px; /* Spazio inferiore */
+  }
+  
+  footer {
+    background-color: #ffffff;
+    padding: 20px 84px;
+    width: 100%;
+  }
+  
+  /* Import Poppins font 
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+*/
+
+body_2 {
+    display: block;
+    margin: 8px;
+}
+.card {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;  /* Make the card's width 100% of its container */
+    max-width: 1000px; /* Adjust the max-width if needed */
+    margin: 20px auto;
+    padding: 20px;
+    font-family: 'Poppins', Arial, sans-serif;
+
+    display: block; /* Ensures the image is a block element */
+    position: relative; /* Enables absolute positioning for child elements */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.card-content {
+    padding: 20px;
+    margin-left: 30px;
+}
+
+.card-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.card-content p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.card-content .read-more {
+    color: #00aaff;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.card-content .read-more:hover {
+    text-decoration: underline;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.author-info {
+    display: flex;
+    margin-left: 48px;
+    align-items: center;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+.author-info img {
+    border-radius: 50%;
+    width: 2.5em; /* Responsive width using em units */
+    height: 2.5em; /* Responsive height using em units */
+    margin-right: 10px;
+}
+
+.author-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.author-details span, 
+.card-header .tag {
+    font-size: 1em; /* Responsive font size using em units */
+    height: 1em; /* Responsive height using em units */
+}
+
+.author-details span {
+    color: #BCBCBC;
+}
+
+.card-header .tag {
+    color: #ff6347;
+    font-weight: 10;
+    font-size: 1em; /* Larger responsive font size using em units */
+    margin-right: 80px;
+}
+
+.name_post {
+    word-spacing: 5px;
+    margin-left: 20px;
+    color: #BCBCBC;
+    font-size: 14px;
+}
+
+.date_post {
+    word-spacing: 5px;
+    margin-left: 133px;
+    color: #BCBCBC;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+
+.image-container {
+    position: relative; /* Enables absolute positioning for child elements */
+}
+
+.image-container img {
+    display: block; /* Ensures the image is a block element */
+    width: 100%; /* Makes the image take up the full container width */
+}
+
+.category-tag {
+    position: absolute; /* Positions the tag absolutely within the relative container */
+    top: 40px; /* 40px from the top of the image */
+    left: 50px; /* 50px from the left of the image */
+    background-color: #262626; /* Semi-transparent black background */
+    color: white; /* White text color */
+    padding: 2px 55px; /* Padding inside the tag */
+    border-radius: 12px; /* Rounded corners */
+    font-family: 'Poppins', Arial, sans-serif; /* Font family */
+    font-size: 14px; /* Font size */
+    font-weight: 600; /* Bold font */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 600px) {
+    .card-content h2 {
+        font-size: 1.2em;
+    }
+
+    .card-content p {
+        font-size: 0.9em;
+    }
+
+    .card-header .tag {
+        font-size: 1.1em;
+    }
+
+    .author-details span {
+        font-size: 0.9em;
+    }
+}
+
