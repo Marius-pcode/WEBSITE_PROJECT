@@ -2,7 +2,7 @@
 WORK GROUP SU GITHUB - CREAZIONE PAGINA WEB 
 ## Descrizione
 
-Questo progetto è un sito web creato da un team di quattro persone. Ogni membro del team ha lavorato su una parte specifica del sito: header_part1, content_part2, content_part3 e footer_part4. Abbiamo utilizzato Git e GitHub per gestire il nostro lavoro collaborativo, creando branch separati per ciascuna parte del sito e facendo il merge dei branch nel branch principale.
+Questo progetto è un sito web creato da un team di tre persone. Ogni membro del team ha lavorato su una parte specifica del sito: header_part1, content_part2, content_part3 e footer_part4. Abbiamo utilizzato Git e GitHub per gestire il nostro lavoro collaborativo, creando branch separati per ciascuna parte del sito e facendo il merge dei branch nel branch principale.
 
 ## Istruzioni per il Setup
 
@@ -62,4 +62,4 @@ Durante il merge potrebbero esserci conflitti. Questi conflitti vanno risolti ma
     - `header_part1` - [Marius]
     - `content_part2` - [Paul]
     - `content_part3` - [Francesco]
-    - `footer_part4` - [Eduardo]
+    - `footer_part4` - [Marius]
